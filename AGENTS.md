@@ -47,5 +47,4 @@ Adrian approves every change. Follow `_system/conventions.md`.
 
 - Passwords, API keys, tokens, recovery codes
 - Bank, card or account numbers, balances, National Insurance or passport numbers
-- M&S internal data: findings, hostnames, IPs, asset lists, tool exports, incident details, colleague names or performance notes
 - Tenant or client personal data
