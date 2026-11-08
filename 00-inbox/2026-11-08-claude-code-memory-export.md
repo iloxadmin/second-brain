@@ -2,14 +2,14 @@
 title: Claude Code memory export
 type: note
 status: active
-sensitivity: personal
+sensitivity: work
 updated: 2026-11-08
 tags: [inbox, ai, memory-export]
 ---
 
 # Claude Code memory export
 
-Source: Claude Code persistent memory on the Mac (`~/.claude/projects/*/memory/`), run 2026-11-08. This covers Claude Code only. The claude.ai and ChatGPT exports still need running from the prompt in [[_system/prompts/memory-export|Memory export prompt]].
+Source: Claude Code persistent memory and past Claude Code session logs on the Mac, run 2026-11-08. This covers Claude Code only. The claude.ai and ChatGPT exports still need running from the prompt in [[_system/prompts/memory-export|Memory export prompt]].
 
 ## Me
 
@@ -27,6 +27,11 @@ Source: Claude Code persistent memory on the Mac (`~/.claude/projects/*/memory/`
 - Design choices: exploitation evidence and inventory presence weigh more than CVSS in the watch score; triage status and exposure validation are separate fields; the headline metric is internet-facing inventory matches with no validation decision.
 - Campaign intelligence is split into curated entries (must carry a source URL) and auto-detected keyword matches labelled as candidates, not findings.
 - Installing runtimes or pip packages on work machines may need a change request.
+- Requested scope (2026-07-28): newly published critical CVEs, new KEV entries, vendor emergency advisories, zero-days, new exploit or PoC releases, ransomware-associated vulnerabilities, campaigns targeting retail or similar organisations, technologies per threat, matches against the technology inventory, and exposure validation status.
+- Dashboard layout restyled from a reference screenshot Adrian supplied (Group-IB style board). Columns became a proximity ladder: Internet-facing, In our estate, Sector targeting, Under watch.
+- Pulls from 17 live feeds; first cold start loaded 5,864 items in 96 seconds.
+- The bundled inventory (`data/inventory.json`) is invented sample data, not the M&S estate. Versions, instance counts, owners and business units are all made up, so any headline figures from that build are not real exposure numbers. Adrian queried this on 2026-07-28.
+- Real inventory and campaign files are gitignored; only `.example.json` versions are tracked. Local git repo set up 2026-07-29; pushing to a private GitHub repo was recommended. Not confirmed whether it was pushed.
 
 ## iLoX Photography
 
