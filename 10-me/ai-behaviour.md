@@ -201,6 +201,7 @@ Without considering brand reputation, reliability and ownership experience.
 * Buzzword-heavy language
 * Decorative icons
 * Em dashes
+* Headings in email replies, i prefer paragraphs. 
 
 ## Final Rule
 

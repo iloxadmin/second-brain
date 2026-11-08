@@ -1,1 +1,8 @@
-{"newFileLocation":"folder","newFileFolderPath":"00-inbox","attachmentFolderPath":"_attachments","newLinkFormat":"absolute","alwaysUpdateLinks":true,"useMarkdownLinks":false}
+{
+  "newFileLocation": "folder",
+  "newFileFolderPath": "00-inbox",
+  "attachmentFolderPath": "_attachments",
+  "newLinkFormat": "absolute",
+  "alwaysUpdateLinks": true,
+  "useMarkdownLinks": false
+}

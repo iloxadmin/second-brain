@@ -19,6 +19,10 @@ tags: [work, easm, security]
 
 - 
 
+## Projects
+
+- [[30-projects/threatwatch|ThreatWatch]]: local emerging threat and zero-day watchlist covering the gap before threats become scanner findings.
+
 ## Operating model and KPIs
 
 - 
@@ -40,3 +44,6 @@ tags: [work, easm, security]
 Allowed: generic frameworks, your own ideas, templates, lessons learned, public-domain references.
 
 Never: vulnerability findings, hostnames, IP ranges, asset inventories, tool exports (Qualys, Wiz, Bitsight, HackerOne, CrowdStrike, Defender), incident details, colleague names or performance notes, anything marked Internal or above under M&S classification.
+
+## Tools
+- M&S Attack Surface Monitor: approved console for external assets, findings and DNS takeovers. Asset data lives there, not here.
